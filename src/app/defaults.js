@@ -24,10 +24,17 @@ export const NETWORKS = [
   },
   {
     id: NetworkType.FLORENCENET,
-    nextNetworkIndex: 0,
+    nextNetworkIndex: 4,
     name: "Florencenet",
     type: "test",
     rpcBaseURL: "https://florencenet.smartpy.io/",
+  },
+  {
+    id: "ithacanet",
+    nextNetworkIndex: 0,
+    name: "Ithacanet",
+    type: "test",
+    rpcBaseURL: "https://ithacanet.smartpy.io/",
   },
 ];
 
